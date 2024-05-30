@@ -1,4 +1,4 @@
-@PersuadeMate.Api_HostAddress = http://localhost:5157
+@PersuadeMate.Api_HostAddress = http://localhost:8080
 
 GET {{PersuadeMate.Api_HostAddress}}/weatherforecast/
 Accept: application/json
