@@ -16,5 +16,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /App
 COPY --from=build-env /App/out .
 # ASPNETCORE_URLS 環境変数を設定
-ENV ASPNETCORE_URLS=http://localhost:5000
+ENV ASPNETCORE_URLS=http://localhost:5157
 ENTRYPOINT ["dotnet", "PersuadeMate.Api.dll"]
